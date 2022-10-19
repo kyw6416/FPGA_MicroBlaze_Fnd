@@ -1,0 +1,25 @@
+src/platform.o src/platform.o: ../src/platform.c \
+ D:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include/xparameters.h \
+ D:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include/xil_cache.h \
+ D:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include/mb_interface.h \
+ D:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include/xil_types.h \
+ D:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include/xil_assert.h \
+ D:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include/xil_exception.h \
+ D:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include/xparameters.h \
+ ../src/platform_config.h
+
+D:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include/xparameters.h:
+
+D:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include/xil_cache.h:
+
+D:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include/mb_interface.h:
+
+D:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include/xil_types.h:
+
+D:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include/xil_assert.h:
+
+D:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include/xil_exception.h:
+
+D:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include/xparameters.h:
+
+../src/platform_config.h:

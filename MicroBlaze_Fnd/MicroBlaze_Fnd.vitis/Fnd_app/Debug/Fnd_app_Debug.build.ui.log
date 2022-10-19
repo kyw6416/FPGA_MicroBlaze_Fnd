@@ -1,0 +1,47 @@
+2022-10-19T19:23:42.294941800255-19:23:42 **** Build of configuration Debug for project Fnd_app ****
+000-make all 
+000-'Building file: ../src/hw/Led/Led.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hw/Led/Led.o" -ID:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/hw/Led/Led.d" -MT"src/hw/Led/Led.o" -o "src/hw/Led/Led.o" "../src/hw/Led/Led.c"
+000-'Finished building: ../src/hw/Led/Led.c'
+000-' '
+000-'Building file: ../src/hw/Button/Button.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/hw/Button/Button.o" -ID:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/hw/Button/Button.d" -MT"src/hw/Button/Button.o" -o "src/hw/Button/Button.o" "../src/hw/Button/Button.c"
+000-'Finished building: ../src/hw/Button/Button.c'
+000-' '
+000-'Building file: ../src/main.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -ID:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+000-../src/main.c: In function 'main':
+000/Fnd_app/src/main.c72-1-1passing argument 1 of 'Led_Toggle' from incompatible pointer type [-Wincompatible-pointer-types]1-../src/main.c:72:15: warning: passing argument 1 of 'Led_Toggle' from incompatible pointer type [-Wincompatible-pointer-types]
+000-   72 |    Led_Toggle(&modeButton);
+000-      |               ^~~~~~~~~~~
+000-      |               |
+000-      |               buttonInst * {aka struct _buttonInst *}
+000-In file included from ../src/main.h:11,
+000-                 from ../src/main.c:1:
+000/Fnd_app/src/hw/Led/Led.h28-1-1expected 'ledInst *' {aka 'struct _led *'} but argument is of type 'buttonInst *' {aka 'struct _buttonInst *'}0-../src/hw/Led/Led.h:28:26: note: expected 'ledInst *' {aka 'struct _led *'} but argument is of type 'buttonInst *' {aka 'struct _buttonInst *'}
+000-   28 | void Led_Toggle(ledInst *led);
+000-      |                 ~~~~~~~~~^~~
+000-'Finished building: ../src/main.c'
+000-' '
+000-'Building file: ../src/platform.c'
+000-'Invoking: MicroBlaze gcc compiler'
+000-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -ID:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+000-'Finished building: ../src/platform.c'
+000-' '
+000-'Building target: Fnd_app.elf'
+000-'Invoking: MicroBlaze gcc linker'
+000-mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/FPGA/MicroBlaze_Fnd/MicroBlaze_Fnd.vitis/design_MicroBlaze_Fnd_wrapper/export/design_MicroBlaze_Fnd_wrapper/sw/design_MicroBlaze_Fnd_wrapper/domain_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "Fnd_app.elf"  ./src/hw/Led/Led.o  ./src/hw/Button/Button.o  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+000-'Finished building target: Fnd_app.elf'
+000-' '
+000-'Invoking: MicroBlaze Print Size'
+000-mb-size Fnd_app.elf  |tee "Fnd_app.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000-   5028	    288	   3116	   8432	   20f0	Fnd_app.elf
+000-'Finished building: Fnd_app.elf.size'
+000-' '
+00255-
+19:23:45 Build Finished (took 3s.413ms)
+

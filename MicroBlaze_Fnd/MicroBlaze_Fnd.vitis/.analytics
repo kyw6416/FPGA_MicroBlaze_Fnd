@@ -1,0 +1,6 @@
+timestamp=[2022-10-19 19:17:30], mode=WORKBENCH_START, duration=0:00:09.353, duration_ms=9353, data={}
+timestamp=[2022-10-19 19:17:30], mode=WORKBENCH_UI_INIT, duration=0:00:00.864, duration_ms=864, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2022-10-19 19:17:36], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:04.470, duration_ms=4470, data={}
+timestamp=[2022-10-19 19:18:56], mode=APP_CREATION, duration=0:00:12.095, duration_ms=12095, data={name=Fnd_app, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=design_MicroBlaze_Fnd_wrapper, application_type=application}
+timestamp=[2022-10-19 19:23:42], mode=PLATFORM_GENERATION, duration=0:00:15.451, duration_ms=15451, data={name=design_MicroBlaze_Fnd_wrapper}
+timestamp=[2022-10-19 19:23:45], mode=BUILD, duration=0:00:03.445, duration_ms=3445, data={name=Fnd_app, configuration=Debug, clean_build=false}

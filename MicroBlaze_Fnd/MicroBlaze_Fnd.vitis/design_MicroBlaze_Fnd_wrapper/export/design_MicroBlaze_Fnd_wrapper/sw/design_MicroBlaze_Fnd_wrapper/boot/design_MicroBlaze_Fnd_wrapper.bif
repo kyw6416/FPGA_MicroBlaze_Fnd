@@ -1,0 +1,6 @@
+/*design_MicroBlaze_Fnd_wrapper*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}
